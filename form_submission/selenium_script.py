@@ -12,31 +12,31 @@ def submit_form():
     # Fill out the form
     # WebDriverWait(driver, 10)
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("Himanshu Sharma")
-    time.sleep(2)
+    # time.sleep(2)
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("8738059086")
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("himan9506492198@gmail.com")
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[1]/div[2]/textarea").send_keys("friends colony,muradnagar,ghaziabad.")
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("284001")
     # time.sleep(50)
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/input").send_keys("05")
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/input").send_keys("10")
-    time.sleep(2)
+    # time.sleep(2)
     
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div/div[2]/div[1]/div/div[1]/input").send_keys("2004")
-    time.sleep(2)
+    # time.sleep(2)
 
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[7]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("Male")
-    time.sleep(2)
+    # time.sleep(2)
 
     driver.find_element(By.XPATH, "/html/body/div/div[2]/form/div[2]/div/div[2]/div[8]/div/div/div[2]/div/div[1]/div/div[1]/input").send_keys("GNFPYC")
     time.sleep(2)
